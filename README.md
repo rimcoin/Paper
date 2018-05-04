@@ -52,3 +52,6 @@ There is a cap of 21000000 coins.
 For a tx to be verified, it must be signed by the private key, associated with the public key, with a 512 bit digital signature. 
 
 However, early builds, to focus on getting the actual code functional, have signing disabled. 
+
+
+\* NOTE: CURRENTLY, IT USES A 160 BIT RANDOM ID. NOT SIGNING! 
