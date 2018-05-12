@@ -1,11 +1,6 @@
 # Rimcoin Protocol
 
-Digital payments are not how they should be. You have to trust other individuals to handle YOUR transaction. 
-
-So, while other currencies like LiteCoin, Bitcoin, and Ethereum do exist;
-I thought I should make my own. 
-
-Here's how Rimcoin works. 
+So, while other currencies like Bitcoin, LiteCoin, and Ethereum do exist; Rimcoin is trying to do better. 
 
 # Figure A
 
@@ -23,7 +18,7 @@ contains,
 Alice has 5 Rimcoin.
 Bob has 2.6 Rimcoin. 
 
-Alice broadcasts to a random node, Node A, send 2 Rimcoin to Bob. And here is a digital signature, to prove I own these Rimcoin.
+Alice broadcasts to a random node, Node A, send 2 Rimcoin to Bob. And here is my proof ID, to prove I own these Rimcoin.
 
 Next, Node A updates it's balance file, then contacts all other nodes with the same data. 
 
@@ -39,19 +34,8 @@ When a new node joins, they contact a random node, to get the current nodes, and
 
 # Distribution
 
-Every 10 minutes, a random user is selected, and is rewarded 50 coins. 
+Rimcoin uses mining. 
 
-After 840000 rewards, it is reduced to 25. 
+Rimcoin does not use a blockchain, so Rimcoin mining is simply finding a hash below a certain value. 
 
-Then 12.5, 6.25, 3.125, etc. 
-
-There is a cap of 21000000 coins. 
-
-# Signing
-
-For a tx to be verified, it must be signed by the private key, associated with the public key, with a 512 bit digital signature. 
-
-However, early builds, to focus on getting the actual code functional, have signing disabled. 
-
-
-\* NOTE: CURRENTLY, IT USES A 160 BIT RANDOM ID. NOT SIGNING! 
+You will ALWAYS be rewarded 50 coins, when you find a hash. 
