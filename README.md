@@ -1,6 +1,6 @@
 # Rimcoin Protocol
 
-So, while other currencies like Bitcoin, LiteCoin, and Ethereum do exist; Rimcoin is trying to do better. 
+Rimcoin is a digital P2P currency; that is de-centralized. 
 
 # Figure A
 
