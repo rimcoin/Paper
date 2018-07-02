@@ -39,3 +39,8 @@ Rimcoin uses mining.
 Rimcoin does not use a blockchain, so Rimcoin mining is simply finding a hash below a certain value. 
 
 You will ALWAYS be rewarded 50 coins, when you find a hash. 
+
+# RNP
+
+RNP is the Rimcoin Network Protocol, and it's documentation is [here](https://github.com/rimcoin/RNP-STANDARD)
+
